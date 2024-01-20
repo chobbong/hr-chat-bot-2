@@ -21,7 +21,7 @@ def get_embedding(text, model="text-embedding-ada-002"):
     return response.data[0].embedding
 
 # folder_path와 file_name을 결합하여 file_path 생성
-folder_path = './ch3/data'
+folder_path = './data'
 file_name = 'embedding.csv'
 file_path = os.path.join(folder_path, file_name)
 
